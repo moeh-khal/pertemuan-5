@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+}
+
+.header-banner .banner-img{
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+nav {
+    background: #eee;
+    padding: 10px 20px;
+    text-align: right;
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 15px;
+    color: #333;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #1a9cb0;
+}
+
+
+.container {
+    display: flex;
+    background: white;
+    min-height: 300px;
+}
+
+
+.biodata {
+    width: 30%;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+    background: #fafafa;
+}
+
+.experience {
+    width: 70%;
+    padding: 20px;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+
+footer {
+    text-align: center;
+    padding: 12px;
+    background: #ddd;
+    font-size: 14px;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: white;
+}
